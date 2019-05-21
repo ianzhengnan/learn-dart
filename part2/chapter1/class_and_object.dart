@@ -2,6 +2,30 @@
 
 import 'person.dart';
 
+
+/*
+
+大纲：
+* 类与对象 声明 创建基本特征
+
+构造方法及初始化列表
+
+静态成员及对象操作符的使用
+
+
+
+使用class声明类
+使用new 创建对象，new可以省略
+所有对象都继承自Object
+
+类成员可见性：
+Dart中成员可见性以library(库)为单位
+默认情况下，每一个Dart文件就是一个库
+使用_表示库的私有性
+使用import导入库
+*
+* */
+
 void main(){
 
   var person = new Person();
